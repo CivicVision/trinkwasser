@@ -5,8 +5,9 @@ deployment:
   production:
     branch: circle-ci
     commands:
-      - git config user.name "$USER_NAME"
-      - git config user.email "$USER_EMAIL"
+      - echo $USER_NAME
+      - git config --global user.name "$USER_NAME"
+      - git config --global user.email "$USER_EMAIL"
       - npm run deploy
 dependencies:
   pre:
