@@ -21,7 +21,56 @@
       "id": "na",
       "limit": 200,
       "legalLimitText": "200 mg/l",
-      "average": 29.6
+      "average": 99.7
+    },
+    {
+      "name": "Calcium",
+      "id": "ca",
+      "limit": 400,
+      "legalLimitText": "-",
+      "average": 61.5
+    },
+    {
+      "name": "Potassium",
+      "id": "k",
+      "limit": 12,
+      "legalLimitText": "-",
+      "average": 5.2
+    },
+    {
+      "name": "Magnesium",
+      "id": "mg",
+      "limit": 60,
+      "legalLimitText": "-",
+      "average": 26
+    },
+    {
+      "name": "Chloride",
+      "id": "chl",
+      "limit": 240,
+      "legalLimitText": "240 mg/l",
+      "average": 119.8
+    },
+    {
+      "name": "Nitrate",
+      "id": "N",
+      "limit": 1,
+      "legalLimitText": "50 mg/l",
+      "average": 0.4
+    },
+    {
+      "name": "Sulfate",
+      "id": "so4",
+      "limit": 240,
+      "legalLimitText": "240 mg/l",
+      "average": 190.7
+    },
+    {
+      "name": "Hardness",
+      "id": "ca_co3",
+      "limit": 300,
+      "legalLimitText": "-",
+      "average": 276.6
     }
   ]
 }
