@@ -51,7 +51,7 @@
 			svg.select('.average-indicator').transition().duration(300).ease('outCirc').attr('y1', averageIndicatorY).attr('y2', averageIndicatorY);
 		};
 		this.applyAttribute = function(nutrient) {
-			limit = nutrientLimits[nutrient];
+			limit = tw.configuration.limits[nutrient];
 			updateLabelsToDisplay();
 			updateLabels();
 			updateAverageIndicator(nutrient);
