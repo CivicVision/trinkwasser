@@ -1,0 +1,27 @@
+{
+  "app": {
+    "city": "San Diego",
+    "dataUrl": "",
+    "activeMeasure": "na"
+  },
+  "locations": [
+    {
+      "name": "Alvarado"
+     },
+     {
+      "name": "Lower Otay"
+     },
+     {
+      "name": "Miramar"
+     }
+  ],
+  "measures": [
+    {
+      "name": "Sodium",
+      "id": "na",
+      "limit": 200,
+      "legalLimitText": "200 mg/l",
+      "average": 29.6
+    }
+  ]
+}
