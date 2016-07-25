@@ -268,6 +268,7 @@ var tw = {
 	tw.init = function() {
     d3.json("data/configuration.json", function(data) {
       data.limits = _.reduce(data.measures, function(result, d) { result[d.id] = d.limit; return result;}, {});
+      data.legalLimitsTexts = _.reduce(data.measures, function(result, d) { result[d.id] = d.legalLimitText; return result;}, {});
       tw.configuration = data;
       completeReferenceWaters();
       setupCityTabs();

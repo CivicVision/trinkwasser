@@ -1,26 +1,6 @@
 (function(tw, d3) {
 	'use strict';
 
-	var nutrientLimits = {
-		"na": 200,
-		"kalium": 12,
-		"calcium": 400,
-		"magnesium": 60,
-		"chlorid": 240,
-		"nitrat": 60,
-		"sulfat": 240
-	};
-
-	var nutrientLegalLimits = {
-		"natrium": '200 mg/l',
-		"kalium": '-',
-		"calcium": '-',
-		"magnesium": '-',
-		"chlorid": '250 mg/l',
-		"nitrat": '50 mg/l',
-		"sulfat": '250 mg/l'
-	};
-
 	var GaugeGlass = function(svg) {
 		var limit = 0;
 		var yValueStop = 220, yValueMaxHeight = 602, yValueStart = yValueStop + yValueMaxHeight;
@@ -261,7 +241,7 @@
 		d3.selectAll('.attribute-description').attr('style', 'display:none;');
 		d3.selectAll('.attribute-description-' + attribute).attr('style', '');
 
-		d3.selectAll('.gauge-legal-limit').text(nutrientLegalLimits[attribute]);
+		d3.selectAll('.gauge-legal-limit').text(tw.configuration.legalLimitsTexts[attribute]);
 		d3.selectAll('.gauge-daily-dosis').text(tw.data.nutrientDailyDosis[attribute]);
 		d3.selectAll('.gauge-daily-dosis-container').attr('style', (tw.data.nutrientDailyDosis[attribute]) ? '' : 'display:none;');
 		d3.selectAll('.gauge-average-value').text(tw.data.averageValues[attribute].toString().replace(/\./g, ','));
