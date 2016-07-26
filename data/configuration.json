@@ -20,7 +20,7 @@
       "name": "Sodium",
       "id": "na",
       "limit": 200,
-      "legalLimitText": "200 mg/l",
+      "legalLimitText": "-",
       "average": 99.7
     },
     {
@@ -48,21 +48,21 @@
       "name": "Chloride",
       "id": "chl",
       "limit": 240,
-      "legalLimitText": "240 mg/l",
+      "legalLimitText": "500 mg/l",
       "average": 119.8
     },
     {
       "name": "Nitrate",
       "id": "N",
-      "limit": 1,
-      "legalLimitText": "50 mg/l",
+      "limit": 10,
+      "legalLimitText": "10 mg/l",
       "average": 0.4
     },
     {
       "name": "Sulfate",
       "id": "so4",
       "limit": 240,
-      "legalLimitText": "240 mg/l",
+      "legalLimitText": "500 mg/l",
       "average": 190.7
     },
     {
