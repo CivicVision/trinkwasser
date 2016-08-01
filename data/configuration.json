@@ -20,6 +20,28 @@
   ],
   "measures": [
     {
+      "name": "Turbidity",
+      "id": "tu",
+      "limit": 1,
+      "legalLimitText": "-",
+      "average": 0.09,
+      "unit": "ntu"
+    },
+    {
+      "name": "Copper",
+      "id": "cu",
+      "limit": 90,
+      "legalLimitText": "-",
+      "average": 50
+    },
+    {
+      "name": "Lead",
+      "id": "pb",
+      "limit": 10,
+      "legalLimitText": "-",
+      "average": 5
+    },
+    {
       "name": "Sodium",
       "id": "na",
       "limit": 200,
