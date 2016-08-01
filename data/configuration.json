@@ -6,13 +6,16 @@
   },
   "locations": [
     {
-      "name": "Alvarado"
+      "name": "Alvarado",
+      "id": "alvarado"
      },
      {
-      "name": "Lower Otay"
+      "name": "Lower Otay",
+      "id": "lower-otay"
      },
      {
-      "name": "Miramar"
+      "name": "Miramar",
+      "id": "miramar"
      }
   ],
   "measures": [
